@@ -1,0 +1,31 @@
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 30px;
+  color: var(--white);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.heading-lower {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+.restaurantImg {
+  width: 700px;
+  border-radius: 20px;
+}
+
+.welcomeText {
+  font-size: 2rem;
+  width: 70%;
+}

@@ -1,0 +1,61 @@
+:root {
+  --white: #f2f2f2;
+  --orange: #5c5470;
+  --black: #222831;
+  --gray: #393e46;
+  --black-transparent: #222831af;
+  box-sizing: border-box;
+  font-family: "MuseoModerno";
+}
+
+@font-face {
+  font-family: "MuseoModerno";
+  src: url("./MuseoModerno-Regular.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./rawImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 1302px;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+button {
+  flex: 1;
+  border: 1px solid var(--orange);
+  /* border-radius: 10px; */
+  background-color: var(--black);
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--white);
+  font-family: "MuseoModerno";
+}
+
+button:hover {
+  background-color: var(--black-transparent);
+}
+
+#content {
+  margin: 0;
+  width: 1300px;
+  min-height: 100vh;
+  height: auto;
+  background-color: var(--black-transparent);
+  border-left: 1px solid var(--orange);
+  border-right: 1px solid var(--orange);
+}
